@@ -17,7 +17,7 @@ This script will setup app your django project and your virtual enviroment.
 </br>
 6- Enter your first app name -> "django-admin startapp {APP_NAME}"
 </br>
-7- your project is ready! now you can start the server
+7- your project is ready! now you can run the server
 </br>
 # Note
 You need to setup template path from settings manually.
