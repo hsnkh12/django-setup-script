@@ -35,14 +35,16 @@ def startDjangoProject():
 
 def startDjangoApp():
     app_name = input("app name> ")
-    os.system(f"mkdir apps")
-    os.chdir("./apps")
-    os.system(f"touch __init__.py")
+    """ OPTIONAL """
+    #os.system(f"mkdir apps") 
+    #os.chdir("./apps")
+    #os.system(f"touch __init__.py")
     os.system(f"django-admin startapp {app_name}")
 
 
 def createFirstTemplate():
-    os.chdir("..")
+    """ OPTIONAL """
+    #os.chdir("..")
     os.system(f"mkdir templates")
     os.chdir("./templates")
     os.system(f"touch index.html")
